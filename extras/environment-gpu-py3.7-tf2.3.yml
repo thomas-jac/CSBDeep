@@ -1,4 +1,4 @@
-name: csbdeep
+name: btp_tf
 channels:
   - defaults
   - nvidia
