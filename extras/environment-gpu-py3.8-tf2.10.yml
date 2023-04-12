@@ -1,0 +1,13 @@
+name: tf_test
+channels:
+  - defaults
+  - nvidia
+dependencies:
+  - python=3.8
+  - cudatoolkit=11.2.*
+  - cudnn=8.1.*
+  - jupyter
+  - pip
+  - pip:
+    - tensorflow==2.10.*
+    - csbdeep
