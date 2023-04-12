@@ -5,9 +5,9 @@ channels:
 dependencies:
   - python=3.8
   - cudatoolkit=11.2.*
-  - cudnn=8.1.0
   - jupyter
   - pip
   - pip:
+    - cudnn=8.1.0
     - tensorflow==2.10.*
     - csbdeep
